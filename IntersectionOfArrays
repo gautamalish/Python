@@ -1,0 +1,8 @@
+// checks the elements on two arrays and returns the similar ones
+def intersection(lst1,lst2):
+  result=[]
+  for i in lst1:
+    if i in lst2:
+      result.append(i)
+  return result
+intersection([2,3,4],[4,2,5])
