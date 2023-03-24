@@ -1,0 +1,9 @@
+# returns dot product of 2 vectors
+x=[2,3,4]
+y=[5,6,7]
+def dot(x,y):
+  ans=0
+  for i in range(len(x)):
+    ans+=x[i]*y[i]
+  print(ans)
+dot(x,y)
