@@ -1,0 +1,9 @@
+#print the number of times the number input by user is in the array
+matrix1=np.random.randint(1,20,size=(4,4))
+print(matrix1)
+user=int(input("Enter a number: "))
+count=0
+for i in matrix1:
+  if(user in i):
+    count+=1
+print(count)
